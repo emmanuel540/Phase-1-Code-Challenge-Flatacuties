@@ -95,7 +95,7 @@ if (!isNaN(votesValue)) {
  detailedInfoDiv.appendChild(votesForm);
 }
 
-// Function to initialize the app
+// Function to initialize the application
 async function init() {
   const charactersData = await fetchAllCharacters();
   displayCharacters(charactersData);
